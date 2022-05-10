@@ -35,20 +35,19 @@ Wenn das Account Service funktionsfähig ist, dann probieren Sie das Account Ser
 
 ## 5. Demo Applikation
 
-* Installation aller erforderlichen Pakete (einmalig)  
-  `mvn clean install`
-
-* Erstellen der Applikation (JAR)  
-  `mvn package`
+* Erstellen der Applikation (JAR) mit Maven oder Gradle  
+  `mvn clean package`  
+  oder  
+  `gradle clean assemble`  
 
 * Starten der Microservice Registrierung   
-  `java -jar target/microservices-demo-2.1.0.RELEASE.jar registration`
+  `java -jar target/DEZSYS_GK_MARATHON_MICROSERVICE-2.1.0.RELEASE.jar registration`
 
 * Starten des Microservice Accounts  
-  `java -jar target/microservices-demo-2.1.0.RELEASE.jar accounts`
+  `java -jar target/DEZSYS_GK_MARATHON_MICROSERVICE-2.1.0.RELEASE.jar accounts`
 
 * Starten des Microservice Web  
-  `java -jar target/microservices-demo-2.1.0.RELEASE.jar web`
+  `java -jar target/DEZSYS_GK_MARATHON_MICROSERVICE-2.1.0.RELEASE.jar web`
 
 ## 6. Bewertung
 Gruppengrösse: 1 Person  
